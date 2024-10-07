@@ -56,7 +56,7 @@ ul li a{
     transition: background-color 0.3s;
 }
 ul li a:hover{
-    color: blue;
+    color: #ffe100e4;
 }
 .btn{
     width: 200px;
@@ -76,7 +76,7 @@ ul li a:hover{
     color: #fff;
 }
 .btn a:hover{
-    color: palevioletred;
+    color: #ffe100e4;
 }
 .content{
     height: auto;
@@ -102,14 +102,40 @@ ul li a:hover{
     letter-spacing: 1.2px;
     line-height: 30px;
 }
-.image{
+.team .image{
     float: right;
     width: auto; 
     height: 50%; 
+    margin-right: 50px;
+    margin-top: 60px;
+}
+.team .image1{
+    float: right;
+    width: auto; 
+    margin-right: 70px;
+    margin-top: 60px;
+}
+.team .image2{
+    float: left;
+    width: 200px;
+    height: 100px; 
+    margin-left: 70px;
+    margin-top: 50px;
 }
 .content .para2{
     
     text-align: left;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content .para3{
+    
+    text-align: right;
     padding-left: 40px;
     padding-right: 40px;
     margin-top: 40px;
@@ -141,6 +167,15 @@ ul li a:hover{
     margin-top: 9%;
     letter-spacing: 2px;
 }
+.content h4{
+    text-align: right;
+    font-family: 'Lucida Sans';
+    font-size: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
 .content .cn{
     width: 150px;
     height: 40px;
@@ -160,7 +195,7 @@ ul li a:hover{
     color: #fff;
 }
 .content .cn a:hover{
-    color: palevioletred;
+    color: #ffe100e4;
 }
 .about{
     margin-top: 150px;
@@ -170,6 +205,15 @@ ul li a:hover{
     line-height: 30px;
 
 }
+.team{
+    background-color: #c5c5c53a;
+    padding-top: 0.5px;
+    padding-bottom: 70px;
+    border: 1px solid #ffe100e4; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+    
+}
+
 .container{
     display: flex;
     justify-content: space-around; /* Adjust spacing between boxes */
@@ -213,7 +257,8 @@ ul li a:hover{
 .services .service h2{
     text-align: center;
     font-family: Arial;
-    font-size: 20px;
+    font-size: 25px;
+    margin-bottom: 20px;
 }
 .services h3{
     text-align: left;
@@ -224,6 +269,7 @@ ul li a:hover{
     margin-bottom: 50px;
     letter-spacing: 2px;
 }
+
 section {
     padding: 50px 20px; /* Space above and below content */
     margin: 20px 0;
@@ -235,17 +281,17 @@ section {
 }
 .conform{
     font-family: Arial;
-    background-color: black;
+    background-color: rgb(35, 35, 35);
     padding-top: 50px;
     color: #ffffff;
     letter-spacing: 1.2px;
     line-height: 30px;
 }
 .conform{
-    text-align: left;
+    text-align: center;
 }
 .conform .form{
-    text-align: right;
+    text-align: center;
 }
 .form .button{
     width: 100px;
@@ -260,6 +306,16 @@ section {
     border-radius: 10px;
     cursor: pointer;
 }
+.form .input_border{
+    width: 310px;
+    height: 5px;
+    margin-right: 50px;
+}
+.form .input_bor{
+    width: 205px;
+    height: 5px;
+
+}
 .form .button a {
     text-decoration: none;
     color: #fff;
@@ -267,8 +323,6 @@ section {
 .form .button a:hover{
     color: palevioletred;
 }
-
-
 .contact {
     max-width: 600px ;
     margin: 50px auto;
